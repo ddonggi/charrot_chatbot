@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="6b4c5346-8756-4fd2-9c08-e65463e7e43c" name="durian" url="http://durian.o2o.kr">
+        <fileTransfer rootFolder="/home/o2o/chatbot/mybot" accessType="SFTP" host="172.30.1.29" port="22" sshConfigId="ef9d72e2-0544-4802-bf72-be3682dc795c" sshConfig="o2o@172.30.1.29:22 password">
+          <advancedOptions>
+            <advancedOptions controlEncoding="UTF-8" dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

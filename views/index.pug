@@ -1,0 +1,23 @@
+//extends layout
+doctype
+
+block script
+  script(src="javascripts/detect.js")
+  script.
+    window.onload = function () {
+      console.log('Detected intent start');
+      detectTextIntent("projectId", "123456", "안녕", "ko")
+      console.log('Detected intent end');
+
+    };
+
+block content
+  h1= title
+  p Welcome to #{title}
+    textarea(name="description")
+  P
+    input(type="text" name="query")
+    input(type="button" value="send" onclick='detectAudioIntent(aaa,bbb,fff,ddd,bbb,aaa)')
+
+
+
